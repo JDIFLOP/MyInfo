@@ -500,7 +500,7 @@ main {
 
 .navbar-link {
   color: hsl(0, 0%, 90%);
-  font-size: var(--fs-8);
+  font-size:20px;
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
