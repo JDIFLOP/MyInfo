@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./idk/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./idk/css/style.css">
+
+  <!--
+    - font
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./idk/images/my-avatar.png" alt="Korakot Wilaiwan" width="80">
+        </figure>
+
+        <div class="info-content">
+          
+          <h1 class="name"  title="Korakot Wilaiwan">กรกฎ   วิไลวัลย์</h1>
+
+          <!-- <p class="title">Web developer</p> -->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>เพิ่มเติม</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">อีเมล</p>
+
+              <a href="mailto:korakotwilaiwan@gmail.com" class="contact-link">korakotwilaiwan@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">เบอร์โทร</p>
+
+              <a href="tel:0652302220" class="contact-link">(+66) | 0652302220</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">วันเกิด</p>
+
+              <time datetime="2007-08-13">13 สิงหาคม 2550</time>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pattaya, Chonburi, Thailand</address>
+            </div>
+
+          </li> -->
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/itsmeger.lz.2025?locale=th_TH" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/b1g_flxqqa/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+
+          <li class="social-item">
+            <a href="www.linkedin.com/in/korakotwilaiwan/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <h3 id="hnav" >| Menu |</h3>
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">เกี่ยวกับฉัน</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            นักศึกษาประกาศนียบัตรวิชาชีพ ชั้นปีที่ 3 กำลังศึกษาอยู่ที่วิทยาลัยเทคโนโลยีอักษรพัทยา <br>
+            สามารถเรียนรู้ได้รวดเร็ว พร้อมปรับตัวให้เข้ากับเทคโนโลยีใหม่ สังคมใหม่อยู่เสมอ <br>
+            มีทักษะที่ดีในด้านภาษา Java และ Visual Basic Studio พร้อมกับมีประสบการณ์ใน <br>
+            ด้านการออกแบบ การสร้าง การปรับแต่งเว็บไซต์โดยใช้ HTML, CSS และ JavaScript <br>
+          </p>
+
+          <p>
+            กำลังมองหาที่ฝึกงานหรือโอกาสในระดับเริ่มต้น เพื่อได้นำทักษะด้าน <br>
+            การเขียนโปรแกรมและการพัฒนาเว็บไซต์ไปใช้และพัฒนาต่อยอดในการทำงานจริง
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">สิ่งที่ฉันทำได้</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./idk/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ออกแบบเว็บไซต์</h4>
+
+                <p class="service-item-text">
+                    ออกแบบและพัฒนาเว็บไซต์ที่ใช้งานง่าย รองรับการแสดงผลทุกอุปกรณ์ โดยใช้โครงร่าง สีสัน และตัวอักษรที่ทันสมัย
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./idk/images/icon-dev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">สร้างเว็บไซต์</h4>
+
+                <p class="service-item-text">
+                  พัฒนาเว็บไซต์ด้วย HTML, CSS และ JavaScript โดยเพิ่มความสามารถในการโต้ตอบ และรองรับการแสดงผลบนทุกอุปกรณ์
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./idk/images/icon-wdfap.png" alt="windows forms apps" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">แอปพลิเคชัน Windows Forms</h4>
+
+                <p class="service-item-text">
+                  พัฒนาแอปพลิเคชันบนเดสก์ท็อปด้วย Visual Basic และ Java โดยมีส่วนติดต่อผู้ใช้ (GUI) เช่น ปุ่มและแบบฟอร์ม
+                </p>
+              </div>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./idk/images/icon-app.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">แอปพลิเคชันมือถือ</h4>
+
+                <p class="service-item-text">
+                  ใช้เครื่องมือพื้นฐานในการสร้างแอปพลิเคชันง่าย ๆ และเรียนรู้โครงสร้างการออกแบบ UI บนมือถือ
+                </p>
+              </div>
+
+            </li>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - nah bro idk xd
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">ประวัติย่อ</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">การศึกษา</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">วิทยาลัยเทคโนโลยีอักษรพัทยา</h4>
+
+              <span>2566 - ปัจจุบัน</span>
+
+              <p class="timeline-text">
+                เกรดเฉลี่ยสะสม = 3.87
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">โรงเรียนเมืองพัทยา 8</h4>
+
+              <span>2563 - 2565</span>
+
+              <p class="timeline-text">
+                  เกรดเฉลี่ย = 3.47
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">ประสบการณ์ทำงาน</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">โออิชิ อีทเทอเรียม</h4>
+              <a href="Certificate_of_employment_resignation_salary.pdf">กดเพื่อดูใบรับรอง</a>
+
+              <span>กุมภาพันธ์ 2567 - ธันวาคม 2567</span>
+
+              <p class="timeline-text">
+                | พนักงานรายชั่วโมง | <br>
+              </p>
+
+              <p class="timeline-text">
+                  - แก้ไขปัญหาเบื้องต้นระบบ POS <br>
+                  - แก้ไขปัญหาเบื้องต้นเครื่อง EDC <br>
+                  - แก้ไขปัญหาเบื้องต้นฮาร์ดแวร์ <br>
+                  - จัดการสต็อกสินค้า <br>
+                  - จัดการเงินเดือนพนักงาน <br>
+                  - ออกใบกำกับภาษี <br>
+                  - จัดการเอกสารภายในร้านทั้งหมด <br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">ทักษะ</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <!-- <data value="80">80%</data> -->
+              </div>
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Visual Basic</h5>
+                <!-- <data value="70">70%</data> -->
+              </div>
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Rust</h5>
+                <!-- <data value="90">90%</data> -->
+              </div>
+<!-- 
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <!-- <data value="50">50%</data> -->
+              </div>
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <!-- <data value="50">50%</data> -->
+              </div>
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <!-- <data value="50">50%</data> -->
+              </div>
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">LUA</h5>
+                <!-- <data value="50">50%</data> -->
+              </div>
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic Design</h5>
+                <!-- <data value="50">50%</data> -->
+              </div>
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">แฟ้มผลงาน</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>ออกแบบเว็บไซต์</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>ออกแบบกราฟิก</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>ประกาศนียบัตร</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>เลือกหมวดหมู่</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>ออกแบบเว็บไซต์</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>ออกแบบกราฟิก</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>ประกาศนียบัตร</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="ประกาศนียบัตร">
+              <a href="./idk/images/database.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/cer1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">การแข่งขัน</h3>
+
+                <p class="project-category">ประกาศนียบัตร</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบกราฟิก">
+              <a href="./idk/images/burger-01.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/poster1.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">โปสเตอร์โฆษณา</h3>
+
+                <p class="project-category">ออกแบบกราฟิก</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบกราฟิก">
+              <a href="./idk/images/tmkstk-01.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/poster2.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">โปสเตอร์โฆษณา</h3>
+
+                <p class="project-category">ออกแบบกราฟิก</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบเว็บไซต์">
+              <a href="./portfolio/web/loading/deadline-loading.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">หน้าโหลด</h3>
+
+                <p class="project-category">ออกแบบเว็บไซต์</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบเว็บไซต์">
+              <a href="./portfolio/web/login/index.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">หน้าล็อกอิน</h3>
+
+                <p class="project-category">ออกแบบเว็บไซต์</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบกราฟิก">
+              <a href="./idk/images/fuit-01.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/fruit1.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">โปสเตอร์ให้ความรู้</h3>
+
+                <p class="project-category">ออกแบบกราฟิก</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบเว็บไซต์">
+              <a href="./portfolio/web/toggles/index.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ปุ่มรูปแบบต่างๆ</h3>
+
+                <p class="project-category">ออกแบบเว็บไซต์</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบเว็บไซต์">
+              <a href="./portfolio/web/navigation/index.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">แถบนำทาง</h3>
+
+                <p class="project-category">ออกแบบเว็บไซต์</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบกราฟิก">
+              <a href="./idk/images/celu-01.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/calendar1.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ปฏิทิน</h3>
+
+                <p class="project-category">ออกแบบกราฟิก</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ออกแบบกราฟิก">
+              <a href="./idk/images/snowman-01.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./idk/images/char1.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ตุ๊กตาหิมะ</h3>
+
+                <p class="project-category">ออกแบบกราฟิก</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - js link
+  -->
+  <script src="./idk/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
